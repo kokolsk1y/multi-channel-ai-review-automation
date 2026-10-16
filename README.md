@@ -1,8 +1,8 @@
 # Multi-channel AI review automation
 
-**Applied AI engineering case study · architectural reconstruction of a historical system**
+**Historical architecture reconstruction**
 
-I designed a multi-source workflow for triaging customer reviews, drafting brand-consistent responses, and publishing them across API and browser-based channels. This repository reconstructs the architecture from recollection after the original n8n workflow exports were lost. It contains documentation and fictional examples, **not** the original workflow JSON, production code, a deployable system, or independently audited performance data.
+This repository documents a multi-source workflow for triaging customer reviews, drafting brand-consistent responses, and publishing them across API and browser-based channels. The architecture was reconstructed from recollection after the original n8n workflow exports were lost. It contains documentation and fictional examples, **not** the original workflow JSON, production code, a deployable system, or independently audited performance data.
 
 > **Scope and evidence.** The source integrations below are remembered at the platform level. There were approximately five independent n8n ingestion workflows, but their exact number and source-to-workflow mapping cannot be verified. The project included Ozon, Wildberries, Telegram, Yandex services, Yandex Maps, 2GIS, and other sources; this is not an exhaustive or precisely counted list.
 
@@ -100,17 +100,12 @@ The operator recalled daily manual effort falling from **about 6 hours to about 
 
 The system still required human attention: daytime approval, expert confirmation of defects, and manual repair after technical failures. Browser publication depended on a fresh Chrome session for each task and the continued stability of external sites. Automatic handling outside working hours increased throughput but also made the quality of routing, templates, and escalation rules important.
 
-## Read the case
+## Documentation
 
-- [Technical case study](docs/technical-case-study.md): decision boundaries, failure handling, and what cannot be reconstructed.
+- [Architecture and design notes](docs/architecture.md): decision boundaries, failure handling, and what cannot be reconstructed.
 - [Fictional walkthroughs](examples/fictional-walkthroughs.md): safe illustrations of routine, defect, and publication-failure paths.
-- [Recruiter-ready copy](docs/recruiter-copy.md): concise GitHub, LinkedIn, and CV descriptions with the evidence boundary intact.
 
-## Recruiter summary
-
-**Applied AI Engineer — multi-channel review operations.** Designed n8n-based ingestion, PostgreSQL/Neon state, LLM routing and brand-guided drafting, human approval, expert-gated Vision AI, deterministic compensation logic, and verified API/browser publication. Historical architecture reconstructed from recollection; original workflow exports and production data are unavailable. Self-reported operator time declined from roughly 6 hours a day to 1 hour, then about 15 minutes as volume increased.
-
-## Disclosure
+## Documentation boundary
 
 No customer data, real reviews, credentials, original workflow exports, production screenshots, or proprietary prompts are included. The examples are invented to explain decision boundaries. Tool and model details are named only where recalled; browser automation libraries, HTTP frameworks, specific model versions, exact workflow counts, and deployment topology are intentionally unspecified.
 
