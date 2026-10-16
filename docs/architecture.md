@@ -69,7 +69,7 @@ The estimate also spans a changing workload. Without timestamps, baselines, and 
 
 ## 8. Evidence and non-claims
 
-The evidence for this repository is the project owner's account of the historical system. A previously attached `CLAUDE.md` described a narrower Ozon CSV, Telegram, and Vision flow; it may represent another version or subset and is **not** evidence for the full multi-source architecture. It also contained a database credential, so it is intentionally absent from this repository. The original exports, code, logs, screenshots, customer data, and quantitative records are not available here.
+The evidence for this repository is the project owner's account of the historical system. An older private brief described a narrower Ozon CSV, Telegram, and Vision flow; it may represent another version or subset and is **not** evidence for the full multi-source architecture. That private document is not included. The original exports, code, logs, screenshots, customer data, and quantitative records are not available here.
 
 This repository does not claim a runnable implementation, exact workflow count, complete platform inventory, specific browser automation package, Python HTTP framework, particular vision model, automatic retries, self-healing, or independently verified impact. The diagrams and fictional examples are explanatory artifacts only.
 
