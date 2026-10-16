@@ -27,8 +27,9 @@ flowchart LR
     E --> G
     H -->|Ambiguous matching| M[Additional LLM comparison]
     M --> G
-    G --> R[Operator edit history informs later drafts]
-    R --> P{Operating mode}
+    D --> R[Prioritized operator edit history]
+    R --> G
+    G --> P{Operating mode}
     P -->|Daytime| O[Manual approval]
     P -->|Outside working hours| U[Automatic path]
     O --> Q{Publisher}
