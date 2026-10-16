@@ -1,6 +1,6 @@
 # Fictional walkthroughs
 
-These examples are invented for this public case study. They are not real reviews, customer records, prompt transcripts, or original workflow data. Product and policy details are deliberately generic.
+These examples are invented for this repository. They are not real reviews, customer records, prompt transcripts, or original workflow data. Product and policy details are deliberately generic.
 
 ## 1. Routine praise
 
