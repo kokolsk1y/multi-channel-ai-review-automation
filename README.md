@@ -103,6 +103,7 @@ The system still required human attention: daytime approval, expert confirmation
 
 - [Technical case study](docs/technical-case-study.md): decision boundaries, failure handling, and what cannot be reconstructed.
 - [Fictional walkthroughs](examples/fictional-walkthroughs.md): safe illustrations of routine, defect, and publication-failure paths.
+- [Recruiter-ready copy](docs/recruiter-copy.md): concise GitHub, LinkedIn, and CV descriptions with the evidence boundary intact.
 
 ## Recruiter summary
 
